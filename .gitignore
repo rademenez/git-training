@@ -1,0 +1,8 @@
+workshop-repo.git
+tmp
+src-slides-tex/*.aux
+src-slides-tex/*.log
+src-slides-tex/*.snm
+src-slides-tex/*.toc
+src-slides-tex/*.nav
+src-slides-tex/*.out

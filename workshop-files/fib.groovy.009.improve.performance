@@ -1,0 +1,12 @@
+import groovy.transform.*
+/* 
+  Fast recursive Fibonacci implementation.
+*/
+@Memoized
+public int fib(int a) {
+  if (a < 0)
+    throw new IllegalArgumentException()
+  if ((a == 0) || (a == 1))
+    return 1
+  return fib(a-2)+fib(a-1)
+}

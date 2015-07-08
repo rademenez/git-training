@@ -1,0 +1,14 @@
+/* 
+  Recursive Fibonacci implementation.
+  Works well for small n.
+*/
+public int fib(int n) {
+  if (n < 0)
+    throw new IllegalArgumentException()
+  if ((n == 0) || (n == 1))
+    return 1
+  return fib(n-2)+fib(n-1)
+}
+
+// Print out last value of Fibonacci sequence for n, given by user
+println fib(Integer.parseInt(args[0]))

@@ -1,0 +1,19 @@
+PRESENTATION INSTALLTION
+------------------------
+To convert tex file to pdf install tex and friends:
+  sudo apt-get install tex latex-beamer texlive-latex-extra texlive-math-extra texlive-latex-extra-doc latex-xft-fonts texlive-lang-polish texlive-doc-pl texlive-fonts-recommended
+
+
+Then use
+  pdflatex <texfile>
+
+NEXT TIME
+---------
+* Publish it on GitHub!!!
+* The more you use this presentation the better
+* Maybe it's better to grow organically, to improve this training presentation a bit by bit in your spare time, not just two weeks before training, too much work piles up if presentation must be prepared 2 weeks before training
+* Move all info to English
+
+LESSONS
+-------
+* If only I had invested time in learning git ~10 years ago...

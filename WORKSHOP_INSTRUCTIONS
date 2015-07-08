@@ -1,0 +1,66 @@
+1
+BOSS: Start working!
+John: GITCONFIG-FETCH-MERGE-ADD-COMMIT-PUSH all on master
+Let us start with writing README file:
+  README.001.initial.commit
+  README
+
+--- BEGIN: Development on master, all in one line ---
+2
+BOSS: Implement software according to specs
+Jane: GITCONFIG-FETCH-MERGE-ADD-AND-COMMIT-PUSH
+First Groovy Fibonacci implementation
+  fib.groovy.002.first.implementation
+
+3
+BOSS: Please handle negative numbers
+John: FETCH-MERGE-COMMIT
+Raise exception for negative numbers
+  fibonacci.groovy.3.negative.numbers
+
+4 
+BOSS: Please comment what you did
+Jane: FETCH-MERGE-COMMIT-PUSH
+Comment implementation
+  fib.groovy.004.comment.first.impl
+
+5
+BOSS: Did you finish your task?
+John: PUSH-MERGE-NO-REBASE-PUSH
+
+6
+BOSS: Please add copyright note
+Jane: FETCH-MERGE-COMMIT-PUSH
+
+--- END ---
+
+--- BEGIN: RELEASE BRANCH ---
+
+7
+BOSS: We're ready to release
+John: BRANCH-RELEASE1.0-MASTER-COMMIT-PUSH
+
+8
+John and Jane fetch at the same time!
+
+BOSS: This does not work! It does not print anything. Fix it.
+And it can't use a variable, it must be n!!!
+Do not collide with other people work. Test it.
+We want to have changes in RELEASE2.0, too!
+Jane: RELEASE1.0-BUGFIX-BRANCH-COMMIT
+  fib.groovy.008.print.last.element
+  fib.groovy.008.call.input.n
+
+9
+BOSS: Please work on performance, is it fast for big n?
+Improve exception message
+Do not collide with other people work. Test it.
+John: BRANCH-COMMIT-PUSH
+
+10
+Jane: -PUSH
+
+11
+Add comment
+Format code
+REBASE INTERACTIVE
