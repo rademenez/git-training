@@ -3,7 +3,6 @@ PRESENTATION INSTALLTION
 To convert tex file to pdf install tex and friends:
   sudo apt-get install tex latex-beamer texlive-latex-extra texlive-math-extra texlive-latex-extra-doc latex-xft-fonts texlive-lang-polish texlive-doc-pl texlive-fonts-recommended
 
-
 Then use
   pdflatex <texfile>
 
